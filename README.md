@@ -1,4 +1,4 @@
-# Astro Developer Portfolio Template
+# Fullstack Developer Portfolio
 A minimal, easy-to-customize developer portfolio template built with [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/). No JavaScript in final build.
 
 ## Demo
@@ -9,13 +9,17 @@ Check out a real-world example: [devidev.io](https://devidev.io)
 ![Astro Developer Portfolio Template - Projects Preview | devi|dev|io](assets/preview-projects.png)
 
 ## Features
-- No bundled JavaScript – optimized for performance and speed.
-- Fully responsive – mobile-friendly and adaptable across all devices.
-- SEO & Social Media Ready – includes OpenGraph, Twitter, and DublinCore metadata.
-- 100/100 Google PageSpeed Score – for both mobile and desktop.
-- Code highlighting – clean and readable syntax with [Shiki](https://github.com/shikijs/shiki).
-- Developer Portfolio & Projects Showcase – display your work with ease.
-- Code Editor-Inspired Design – modern and developer-friendly aesthetics.
+- **Full-Stack Web Development** – working in both, front-end and back-end using HTML, CSS, JavaScript, Node.js, and Express.js.  
+- **UX/UI-Driven Design** – intuitive layouts and seamless user flows focused on usability, engagement, and conversion.  
+- **Marketing & META Integrations** – advanced setups with Facebook Pixel, Conversion API, and Analytics to track and optimize performance.  
+- **Conversion-Focused Websites** – every project built to maximize ROI through speed, structure, and user experience.  
+- **SEO & Performance Optimization** – clean code, structured data, and fast-loading pages designed for top search rankings.  
+- **Responsive & Mobile-First Design** – websites that adapt beautifully across all devices and screen sizes.  
+- **Scalable Architecture (MVC)** – organized, maintainable, and ready to grow with your business needs.  
+- **Business-Oriented Approach** – bridging code and strategy to help brands increase visibility, traffic, and sales.  
+- **Modern Aesthetics** – sleek, professional visuals with a focus on brand identity and conversion psychology.  
+- **Portfolio & Project Highlights** – real-world examples showcasing impactful, data-driven web solutions.
+
 
 ## Tech Stack
 - [Astro](https://astro.build/)
