@@ -2,55 +2,66 @@
 import { Code } from 'astro:components';
 
 const code = `interface Developer {
-    name: string;
-    skills: string[];
-    interests: string[];
+    Name:   string [Myriam L Reyes];
+    Skills: string 
+            [Programming & Development: JavaScript, React, Angular, Node.js, Django, SQL (MariaDB), NoSQL (MongoDB), 
+             Cloud & DevOps: GitHub, Hubspot, Vercel
+             Automation & RPA: Power Automate, Python scripting,
+             Marketing Tech: Meta Pixel, SEO tools (Google Search Console)];
+
+    Soft Skills: string 
+            [Clear communication, Problem-solving, Remote collaboration, Teamwork, Adaptability, Critical thinking, Time management
+
+    Interests: string
+                    [Continuous learning in modern JavaScript ecosystems (React, Next.js, Astro, Node.js).
+                    Expanding into global digital business strategies (collaborating across markets and industries).
+                    Learning about the efficient connection between technology and marketing, and how both fields can work together to drive smarter, data-driven digital strategies.];
+                    Exploring advanced automation workflows and API integrations to enhance efficiency, scalability, and digital performance.];
+    };
+
+    Interface TechStack {string 
+
+                  [Frontend: 
+                            'HTML5', 
+                            'CSS3', 
+                            'Angular',
+                            'JavaScript',
+                            'React',
+                            'WordPress',
+                            'Astro', 
+                            'Tailwind CSS',
+                
+                   Backend: 
+                            'Node.js', 
+                            'Express.js', 
+                            'RESTful APIs',
+                            'MVC architecture'
+
+                   Database & Integrations: 
+                            'MongoDB basics',
+                            'JSON',
+                            'API consumption'
+
+                   Version Control: 
+                            'GitHub'
+
+                   Deployment & Tools: 
+                            'Hostinger', 'Vercel', 'npm', 'PowerShell', 'VS Code'
+
+                   Performance & Optimization:
+                            'PageSpeed optimization', 'responsive layouts', 'SEO best practices'
+                   
+                   Marketing Integrations: 'Meta Pixel', 'Hubspot', 'Google Analytics'];
+
 };
 
-interface TechStack {
-    devOps: string[];
-    backend: string[];
-   frontend: string[];
-};
-
-type ContactType = 'github' | 'twitter' | 'linkedIn' | 'xing' | 'email';
-
-const techStack: TechStack = {
-    devOps: [
-        'GitLab',
-        'GitHub',
-        'Cloudflare',
-        'Docker'
-    ],
-    frontend: [
-        'Angular',
-        'JavaScript',
-        'TypeScript',
-        'TailwindCSS',
-        'PrimeNG',
-        'Astro',
-        'Ionic',
-        'Stencil',
-        'Capacitor',
-        'SCSS',
-        'Markdown',
-        'WordPress'
-    ],
-    backend: [
-        'Supabase',
-        'Node.js',
-        'Bun',
-        'Deno',
-        'PostgreSQL',
-        'MySQL',
-        'S3 Storage',
-        'Resend'
-    ]
+type ContactType = 'github' | 'linkedIn' | 'email' | 'phone number' |;
+   
 };
 
 // Developer profile
 const me: Developer = {
-    name: 'Dejan Vi.',
+    name: 'Myriam L Reyes.',
     skills: [
         ...techStack.devOps,
         ...techStack.backend,
@@ -58,9 +69,10 @@ const me: Developer = {
     ],
     interests: [
         'Open Source',
+        'Web Development',
+        'Web Architecture & Design',
         'Security',
-        'Privacy',
-        'Performance',
+        'Web Marketing',
         'Self-Hosting',
         'Networking'
     ]
@@ -70,15 +82,13 @@ const me: Developer = {
 const contact = (type: ContactType): string => {
     switch (type) {
         case 'github':
-            return 'https://github.com/devidevio';
-        case 'twitter':
-            return 'https://x.com/devidev_io';
+            return 'https://github.com/LILYREYES';
         case 'linkedIn':
-            return 'https://www.linkedin.com/in/dejan-vi';
-        case 'xing':
-            return 'https://www.xing.com/profile/Dejan_Vintonjiv';
+            return 'https://www.linkedin.com/in/fullstackdevliliareyes/';
         case 'email':
-            return 'hi@devidev.io';
+            return 'sienna.7@outlook.com';
+        case 'phone number':
+            return '+49 1726143290';
         default:
             return 'Send fax.';
     }
